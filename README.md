@@ -1,5 +1,3 @@
-# blockgames
-Block Game Websites
 ![](https://raw.githubusercontent.com/wiki/google/blockly-games/title.png)
 
 -----------------
