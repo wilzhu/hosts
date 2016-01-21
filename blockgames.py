@@ -1,4 +1,5 @@
-#coding:utf-8
+#!/usr/bin/env python
+# coding=utf-8
 
 import urllib.request as u
 import urllib.parse as pa
