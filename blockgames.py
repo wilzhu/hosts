@@ -74,10 +74,10 @@ while True:
                 break
     if ret_flag == 1:
         break
-fp.write('#注：本hosts文件由脚本自动抓取并已去重复 可以删除此段文字)\n')
+fp.write('#注：本hosts文件由脚本自动抓取并已去除重复)\n')
 fp.write('#本文件包括 ‘%s’ 关键词的百度前%d页搜索结果 大约 %d条结果\n'%(temp, page, count))
-fp.write('#如果此文件对正常网站造成打不开的状况  请在本文件中搜索那个网站地址 并删除那一行\n')
-fp.write('\n#下面的网站均在抓取中已忽略 你可以自己添加到hosts文件\n')
+fp.write('#如果此hosts文件对正常网站造成打不开的状况  请搜索hosts文件中对应网址并删除\n')
+fp.write('\n#下面的网站均在抓取中已忽略 可以自己添加到hosts文件\n')
 for j in web_not:
     fp.write('#'+j+'\n')
 fp.write('\n#以下为重定向表\n\n\n')
