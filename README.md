@@ -1,6 +1,5 @@
------------------
 
-**hosts for Internet Freedom & Block Game Websites
+**hosts for Internet Freedom & Block Game Websites**
 
 ------------------
 
